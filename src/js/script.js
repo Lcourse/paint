@@ -12,7 +12,7 @@ let isPainting = false;
 
 let activeTool = "brush";
 
-/* Identificar o erro posteriormente */
+/* Encontrar inconsistência no código ??? */
 inputColor.addEventListener("change", ({ target }) => {
   ctx.fillStyle = target.value;
 });
